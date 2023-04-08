@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Hero Converter</h1>
+		<input type="text" id="weight" placeholder="Enter weight...">
+		<select id="unit">
+			<option value="kg">Kilograms (kg)</option>
+			<option value="lb">Pounds (lb)</option>
+		</select>
+		<button onclick="convert()">Convert</button>
+		<div class="result">
+			<span id="output"></span>
+		</div>
+	</div>
+	<div class="container">
+		<h1>Number Series Calculator</h1>
+		<form>
+			<input type="text" id="numbers" placeholder="Enter a series of numbers:..." name="numbers" required>
+			<button type="button" onclick="calculate()">Calculate</button>
+		</form>
+		<div id="output"></div>
+	</div>
+	<div class="container">
+        <h1>Text Manipulation</h1>
+        <textarea id="textArea"></textarea>
+        <div class="buttonGroup">
+            <button id="clearButton">Clear All</button>
+            <button id="capitalizeButton">Capitalize</button>
+            <button id="sortButton">Sort</button>
+            <button id="reverseButton">Reverse</button>
+            <button id="stripButton">Strip Blank</button>
+            <button id="addNumberButton">Add Numbers</button>
+            <button id="shuffleButton">Shuffle</button>
+        </div>
+    </div>
+	<div id="quote-box">
+		<h2>Quote Box</h2>
+		<p id="quote"></p>
+		<button class="btn" id="color1">Green</button>
+		<button class="btn" id="color2">Yellow</button>
+		<button class="btn" id="color3">Blue</button>
+		<button class="btn" id="color4">Orange</button>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

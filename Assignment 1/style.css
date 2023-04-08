@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+
+main {
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+nav a i {
+  font-style: normal;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #9c9090; 
+  padding: 10px;
+  border-radius: 5px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #eee;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-style: italic;
+}
+h4 {
+  text-align: center;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  margin: 10px;
+  width: 50px;
+}
+
+.center-button {
+  display: block;
+  margin: 0 auto;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+ul li:hover {
+  background-color: #e5e5e5;
+  cursor: pointer;
+}
+ul {
+  background-color: #9c9090; 
+  padding: 10px;
+  border-radius: 5px;
+}
