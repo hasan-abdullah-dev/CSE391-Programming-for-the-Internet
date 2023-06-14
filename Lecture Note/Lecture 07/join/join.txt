@@ -1,0 +1,16 @@
+SQL Joins
+
+https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
+
+http://www.sql-join.com/sql-join-types/
+
+
+https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins
+
+
+http://joins.spathon.com/
+
+
+https://db.apache.org/derby/docs/10.8/ref/rrefsqlj29840.html
+
+https://stackoverflow.com/questions/27207772/java-derby-sql-join
